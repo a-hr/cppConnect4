@@ -1,0 +1,5 @@
+Para compilar player1(server):
+- g++ -std=c++17 player1.cpp Server.cpp Game.cpp -o player1.exe -lws2_32
+
+Para compilar player2(client):
+- g++ -std=c++17 player2.cpp Client.cpp Game.cpp -o player2.exe -lws2_32
