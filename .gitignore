@@ -32,6 +32,5 @@
 *.app
 
 # Private stuff
-compile.instr
-/bin
-.vscode/
+*.instr
+bin/
